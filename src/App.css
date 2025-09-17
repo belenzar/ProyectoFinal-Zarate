@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: "DynaPuff", system-ui;
+  margin-top: 20px;
+  color: #17a6ab;
+}
+
+h3{
+  font-size: 20px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(97, 96, 85);
+}
+
+span{
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(1, 101, 112);
+}
+
+.logo {
+  background-image: url("./assets/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90px;
+  height: 60px;
+  margin-left: 10px;
+  font-size: 0;
+}
+
+li {
+  font-family: "DynaPuff", system-ui;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.btn{
+  background-color: rgb(55, 216, 178);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.btn:hover{
+  background-color: rgb(2, 122, 102);
+  color: white;
+}
+
+.nav-link {
+  color: #17a6ab;
+}
+
+.nav-link:hover {
+  color: rgb(55, 216, 178);
+}
+
+ul .nav-link.active{
+  color: #17a6ab;
+
+}
+
+nav .nav-link.active{
+  color: rgb(55, 216, 178) !important;
+}
+
+.card-img-fixed {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  padding: 5px;
+}
+
+.spinner-border{
+  color: rgb(55, 216, 178);
+}
+
+.footer{
+  background-color: rgba(255, 166, 0, 0.447);
+}
